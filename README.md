@@ -20,3 +20,26 @@ validation data to be stored in data/val
 
 https://drive.google.com/file/d/1bKEa2Z_5ByYyQO_2UqBFLqeLwe2cbTBw/view?usp=sharing
 
+## Installation
+
+Install pytorch
+
+```bash
+  pip install -r requirements.txt
+  pip install -r requirements_gpu.txt
+```
+
+## Training
+
+Training the model 
+
+```bash
+  python train.py --workers 1 --device 0 --batch-size 4 --epochs 100 --data data/custom_data.yaml --hyp data/hyp.scratch.custom.yaml --cfg cfg/training/yolov7-custom.yaml --name yolov7-custom --weights yolov7.pt
+```
+
+## Using the model 
+
+
+```bash
+  python detect.py --weights runs/train/yolov7-custom/weights/best.pt --conf 0.5 --source imagename.jpg --view-img --no-trace
+```
