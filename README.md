@@ -9,7 +9,8 @@ Official yolov7 repository : https://github.com/WongKinYiu/yolov7
 
 ![App Screenshot](https://github.com/NikhilBhalla16/Vehicle-Identification-on-Indian-Roads/assets/109459445/06d0c599-d1b8-4da6-80e0-be305b09413d)
 ![App Screenshot](https://github.com/NikhilBhalla16/Vehicle-Identification-on-Indian-Roads/assets/109459445/3979c47c-d985-4cb1-a642-6e7198af8db3)
-![App Screenshot](https://drive.google.com/file/d/1O8_TuVPLEVd9eUMuum6xs-bhqfaTnpbN/view?usp=sharing)
+![confusion_matrix](https://github.com/user-attachments/assets/06de0060-5e09-418a-9890-fad3252c6d37)
+![confusion_matrix](https://github.com/user-attachments/assets/9bd7c0d7-7bd8-4d5e-8140-2114fc4ab914)
 
 ## Custom Dataset 
 
